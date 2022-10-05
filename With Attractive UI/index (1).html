@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<style>
+
+.tbox
+{
+	border: 1px solid darkorange;
+
+	padding:5px;
+	margin-left:80px;
+	margin-top:5px;
+	width:300px;
+	border-radius:9px;
+	background:transparent;
+	color:white;
+	resize:none;
+	
+}
+
+.reset-btn
+{
+	padding:8px;
+	border:none;
+	border-radius:20px;
+	width:100px;
+	color:white;
+	background-color:#4F4F4F;
+	font-family:caviar dreams;
+	font-size:11pt;
+    cursor:pointer;
+	transition:0.4s;
+}
+
+.reset-btn:hover
+{
+	background-color:orange;
+	color:black;
+}
+
+.submit-btn
+{
+	padding:8px;
+	border:none;
+	border-radius:20px;
+	width:100px;
+	color:white;
+	background-color:#4F4F4F;
+	font-family:caviar dreams;
+	font-size:11pt;
+    cursor:pointer;
+	transition:0.4s;
+    margin-left: 30px;
+}
+
+.submit-btn:hover
+{
+	background-color:orange;
+	color:black;
+}
+
+.p
+{
+	background-color:#0A0A0A9d;
+	width:600px;
+	height:370px;
+
+	border:2px solid orange;
+
+	border-radius:15px;
+}
+
+</style>
+
+
+
+<title>details of employees</title>
+</head>
+
+<body style="background-color:#282828; color: darkorange;">
+
+ 
+
+<center>
+
+
+
+<h1 >EMPLOYEES
+</h1>
+<h2>details of employees</h2>
+
+
+
+<br>
+<br>
+
+<table>
+
+<form action="save.php" method="POST" name="save.php">
+
+    
+    <tr>
+        <td>
+            Emp_id 
+        </td>
+
+        <td>
+            <input type="text" name="Emp_id" class="tbox" ">
+        </td>
+    </tr>
+
+    
+    <tr>
+        <td>
+            DoB 
+        </td>
+        <td>
+            <input type="date" name="DoB" class="tbox">
+        </td>
+    </tr>
+    
+        
+    <tr>
+        <td>
+            First_name
+        </td>
+        <td>
+            <input type="text" name="First_name" class="tbox">
+        </td>
+    </tr>
+    
+        
+    <tr>
+        <td>
+            Last_name 
+        </td>
+        <td>
+            <input type="text" name="Last_name" class="tbox">
+        </td>
+    </tr>
+    
+        
+    <tr>
+        <td>
+            Gender
+        </td>
+        <td>
+            <input type="text" name="Gender" class="tbox">
+        </td>
+    </tr>
+    
+        
+    <tr>
+        <td>
+            App_date 
+        </td>
+        <td>
+            <input type="date" name="App_date" class="tbox">
+        </td>
+    </tr>
+    
+     
+</table>  
+<br>
+<br>
+<input type="reset" class="reset-btn" name="reset-btn" value="Clear" />
+<input type="submit" class="submit-btn" name="ADD" value="Submit"/>
+<input type="submit" class="submit-btn" name="SEARCH" value="Search"/>
+
+</form> 
+
+<br>
+
+</center>
+
+
+
+</body>
+</html>
+
